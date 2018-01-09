@@ -57,7 +57,7 @@ var Web3 = function Web3() {
 
         this.eth.setProvider(provider, net);
         this.shh.setProvider(provider, net);
-        this.bzz.setProvider(provider);
+        // this.bzz.setProvider(provider);
 
         return true;
     };
